@@ -1,0 +1,44 @@
+.buttons {
+    flex-direction: row;
+    display: inline;
+    margin-top: 50px;
+  }
+  
+  .character {
+    margin: 5px;
+    padding: 5px;
+    width: 70%;
+    height: 300px;
+  }
+  
+  .container {
+    justify-content: center;
+    margin-top: 50px;
+  }
+  .character-container {
+    display: inline;
+  }
+  .character {
+    width: 15rem;
+    height: 20rem;
+    color: white;
+  }
+  .img-character {
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    object-fit: cover;
+  }
+  
+  .character-name {
+    font-size: 20px;
+  }
+  
+  .alive {
+    border: 2px solid lightgreen;
+  }
+  
+  .deathed {
+    border: 2px solid tomato;
+  }
+  
